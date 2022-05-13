@@ -8,4 +8,6 @@ Supports Android, iOS, web, macOS, Windows, and Linux.
 
 Try the app with `flutter run` or [open the web demo](https://flutter-material-3.web.app/).
 
+![Showcase showcase](docs/showcase.mov)
+
 Have fun!
