@@ -2,10 +2,6 @@ import 'package:flex_color_picker/flex_color_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_material_3/src/settings/settings_controller.dart';
 
-import 'sample_item.dart';
-import 'sample_item_details_view.dart';
-
-/// Displays a list of SampleItems.
 class SampleItemListView extends StatefulWidget {
   final SettingsController _settingsController;
 
@@ -62,13 +58,6 @@ class _SampleItemListViewState extends State<SampleItemListView> {
           ),
         ],
       ),
-
-      // To work with lists that may contain a large number of items, it’s best
-      // to use the ListView.builder constructor.
-      //
-      // In contrast to the default ListView constructor, which requires
-      // building all Widgets up front, the ListView.builder constructor lazily
-      // builds Widgets as they’re scrolled into view.
       body: Row(
         children: [
           NavigationRail(
@@ -147,12 +136,12 @@ class _SampleItemListViewState extends State<SampleItemListView> {
                         children: [
                           ElevatedButton(
                             onPressed: () {},
-                            child: Text('Tap me'),
+                            child: const Text('Tap me'),
                           ),
                           ElevatedButton.icon(
                             onPressed: () {},
                             icon: const Icon(Icons.star_border_rounded),
-                            label: Text('Tap me'),
+                            label: const Text('Tap me'),
                           ),
                         ],
                       ),
@@ -169,12 +158,12 @@ class _SampleItemListViewState extends State<SampleItemListView> {
                           ),
                           FloatingActionButton.extended(
                             onPressed: () {},
-                            label: Text('Tap me'),
+                            label: const Text('Tap me'),
                           ),
                           FloatingActionButton.extended(
                             onPressed: () {},
                             icon: const Icon(Icons.star_outline_rounded),
-                            label: Text('Tap me'),
+                            label: const Text('Tap me'),
                           ),
                         ],
                       ),
@@ -187,12 +176,12 @@ class _SampleItemListViewState extends State<SampleItemListView> {
                         children: [
                           TextButton(
                             onPressed: () {},
-                            child: Text('Tap me'),
+                            child: const Text('Tap me'),
                           ),
                           TextButton.icon(
                             onPressed: () {},
                             icon: const Icon(Icons.star_outline_rounded),
-                            label: Text('Tap me'),
+                            label: const Text('Tap me'),
                           ),
                         ],
                       ),
@@ -205,12 +194,12 @@ class _SampleItemListViewState extends State<SampleItemListView> {
                         children: [
                           OutlinedButton(
                             onPressed: () {},
-                            child: Text('Tap me'),
+                            child: const Text('Tap me'),
                           ),
                           OutlinedButton.icon(
                             onPressed: () {},
                             icon: const Icon(Icons.star_outline_rounded),
-                            label: Text('Tap me'),
+                            label: const Text('Tap me'),
                           ),
                         ],
                       ),
